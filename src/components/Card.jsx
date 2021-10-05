@@ -8,7 +8,6 @@ const Card = (props) => {
                     <img
                       src={props.countryCard.flags.svg}
                       alt={`Flag of ${props.countryCard.name}`}
-                      loading="lazy"
                       className="flag"
                     />
                     <div className="card-content">

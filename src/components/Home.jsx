@@ -26,7 +26,6 @@ const Home = (props) => {
           </span>
           <input
             type="text"
-            name=""
             id="textField"
             placeholder="Search for a country..."
             onChange={props.onFilter}
